@@ -21,7 +21,7 @@ void loop() {
     Serial.println(peso, 2);
 
     if (peso > 1.0) {
-      Serial.println("1"); // sinal para o Node-RED
+      Serial.println("1"); 
     }
   } else {
     Serial.println("Balança não pronta");
